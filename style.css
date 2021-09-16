@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.myinfo{
+    display: inline-block;
+}
+body{
+    
+    background-color: #F8F6F6;
+    font-family: 'calibri';
+    flex-wrap: wrap;
+} 
+
+.customtext
+{
+    font-family: 'consolas';
+    margin-left: 60px;
+    margin-right: 70px;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+.estandarP
+{
+    font-family: 'arial';
+    margin-left: 30px;
+}
+
+h2{
+    margin-left: 60px;
+    
+}
+
+header{
+    background-color: white;
+    width:100%;
+    clear:both;
+    content:'';
+    display: table;
+    box-shadow: 1px 1px 4px lightgray;
+    position: fixed;
+    z-index: 1;
+  
+}
+
+.menu{
+    width: 900px;
+    height: 140px;
+    margin: 10; 
+}
+
+.myinfo{
+    position: relative;
+    margin-bottom: 30%;
+    float: right;
+}
+span{
+    font-family: 'calibri';
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.myimage{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 170px;
+    height: 250px;
+}
+
+img{
+    height: 170px;
+    margin-left: 50px;  
+    margin-top: -20px;
+}
+
+nav {
+    float: right;
+    height: 150px;
+    margin-right: 190px;
+  } 
+  .aboutme{
+    float: right;
+    margin-right: 950px;
+  }
+iframe{
+    margin-left: 60px;
+}
+
+  li{
+      font-weight: bold;
+  }
+
+  ul li{
+      margin-top:20px;
+      list-style: none;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 52px 0;
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    border-radius: 5px;
+    width: 0%;
+    background: rgb(29, 113, 182);
+    height: 5px;
+    margin-top: 25px;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+footer
+{
+    align-self: flex-end;
+    background-color: black;
+    color: white;
+    line-height: 3  ;
+    text-align: center; 
+    width: 100%;
+    height: 150px
+}
+.footermedia
+{
+    margin-right: 40px;
+    margin-top: 30px;
+    width: 35px;
+    height: 35px;
+}
